@@ -16,6 +16,7 @@ starRatingTemplate.innerHTML = `
       background: none;
       padding: 0;
       color: #c1bfbd;
+      color: var(--button-color, #c1bfbd);
       cursor: pointer;
     }
     
@@ -25,6 +26,7 @@ starRatingTemplate.innerHTML = `
     
     .selected {
       color: #f4a810;
+      color: var(--button-color, #f4a810);
     }  
   </style>
   <div>

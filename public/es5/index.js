@@ -10,7 +10,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var starRatingTemplate = document.createElement('template');
 
-starRatingTemplate.innerHTML = '\n  <style>\n    :host {\n      display: block;    \n    }\n\n    star-rating {\n      display: block;    \n    }\n    \n    button {\n      font-size: 32px;\n      border: none;\n      background: none;\n      padding: 0;\n      color: #c1bfbd;\n      cursor: pointer;\n    }\n    \n    button:focus {\n      outline: none;\n    }\n    \n    .selected {\n      color: #f4a810;\n    }  \n  </style>\n  <div>\n    ' + '<button>★</button>'.repeat(5) + '\n  </div>\n';
+starRatingTemplate.innerHTML = '\n  <style>\n    :host {\n      display: block;    \n    }\n\n    star-rating {\n      display: block;    \n    }\n    \n    button {\n      font-size: 32px;\n      border: none;\n      background: none;\n      padding: 0;\n      color: #c1bfbd;\n      color: var(--button-color, #c1bfbd);\n      cursor: pointer;\n    }\n    \n    button:focus {\n      outline: none;\n    }\n    \n    .selected {\n      color: #f4a810;\n      color: var(--button-color, #f4a810);\n    }  \n  </style>\n  <div>\n    ' + '<button>★</button>'.repeat(5) + '\n  </div>\n';
 
 var getElementIndex = function getElementIndex(domEl) {
   return Array.from(domEl.parentNode.children).indexOf(domEl);
