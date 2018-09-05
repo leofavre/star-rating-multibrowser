@@ -1,0 +1,17 @@
+{
+  "name": "star-rating-multibrowser",
+  "version": "0.1.0",
+  "description": "Testing Star rating web component in multiple browsers",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "eslint"
+  },
+  "author": "Leonardo Favre",
+  "devDependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "http-server": "^0.11.1"
+  }
+}
