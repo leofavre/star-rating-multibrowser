@@ -1,4 +1,6 @@
 dist/
+html_report/
+engine_scripts/
 
 # Logs
 logs

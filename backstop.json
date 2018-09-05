@@ -18,7 +18,7 @@
     {
       "label": "BackstopJS Homepage",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
-      "url": "https://garris.github.io/BackstopJS/",
+      "url": "http://127.0.0.1:8080/public/es5/",
       "referenceUrl": "",
       "readyEvent": "",
       "readySelector": "",
